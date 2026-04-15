@@ -147,3 +147,5 @@ dist
 *.egg-info
 .idea
 *.bat
+
+Cargo.lock
