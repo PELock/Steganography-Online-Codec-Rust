@@ -1,5 +1,11 @@
 # Steganography Online Codec — Rust SDK
 
+[![Crates.io](https://img.shields.io/crates/v/steganography-online-codec.svg?style=flat-square)](https://crates.io/crates/steganography-online-codec)
+[![docs.rs](https://img.shields.io/docsrs/steganography-online-codec?style=flat-square)](https://docs.rs/steganography-online-codec)
+[![License](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
+[![rustc](https://img.shields.io/badge/rustc-1.70%2B-orange?style=flat-square)](https://doc.rust-lang.org/cargo/reference/manifest.html#the-rust-version-field)
+[![GitHub stars](https://img.shields.io/github/stars/PELock/Steganography-Online-Codec-Rust?style=flat-square&logo=github)](https://github.com/PELock/Steganography-Online-Codec-Rust/stargazers)
+
 **Steganography Online Codec** allows you to hide a password encrypted message within the images & photos using [AES](https://www.youtube.com/watch?v=O4xNJsjtN6E)
 encryption algorithm with a 256-bit [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) derived key.
 
