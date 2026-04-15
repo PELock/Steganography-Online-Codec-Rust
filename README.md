@@ -30,16 +30,32 @@ password.
 
 ## Installation
 
-Add the crate from GitHub (or use a `path` dependency if you vendor this repository next to your project):
+The crate is on [crates.io](https://crates.io/crates/steganography-online-codec). Add it from the registry (recommended):
+
+```
+cargo add steganography-online-codec
+```
+
+Or add a version requirement to your `Cargo.toml` (use `"1"` to stay on compatible 1.x releases, or pin e.g. `"1.0.0"`):
+
+```toml
+steganography-online-codec = "1"
+```
+
+**From Git** (only if you need unreleased changes from this repository):
 
 ```
 cargo add steganography-online-codec --git https://github.com/PELock/Steganography-Online-Codec-Rust
 ```
 
-Or add to your `Cargo.toml`:
-
-```
+```toml
 steganography-online-codec = { git = "https://github.com/PELock/Steganography-Online-Codec-Rust" }
+```
+
+**Path** dependency if you vendor the crate next to your project:
+
+```toml
+steganography-online-codec = { path = "../Steganography-Online-Codec-Rust" }
 ```
 
 ## Packages for other programming languages
@@ -50,7 +66,7 @@ The installation packages have been uploaded to repositories for several popular
 | ---------- | -------- | ------------ | ------- | ------ |
 | ![PyPI repository for Python](https://www.pelock.com/img/logos/repo-pypi.png) | Python | Run `pip install steganography-online-codec` | [PyPI](https://pypi.org/project/steganography-online-codec/) | [Sources](https://github.com/PELock/Steganography-Online-Codec-Python) |
 | ![NPM repository for JavaScript and TypeScript](https://www.pelock.com/img/logos/repo-npm.png) | JavaScript, TypeScript | Run `npm i steganography-online-codec` or add `"steganography-online-codec": "latest"` under `dependencies` in `package.json` | [NPM](https://www.npmjs.com/package/steganography-online-codec) | [Sources](https://github.com/PELock/Steganography-Online-Codec-JavaScript) |
-| ![Rust crates.io](https://www.pelock.com/img/logos/repo-crates.png) | Rust | Run `cargo add steganography-online-codec --git https://github.com/PELock/Steganography-Online-Codec-Rust` or add `steganography-online-codec = { git = "https://github.com/PELock/Steganography-Online-Codec-Rust" }` to `Cargo.toml` | [crates.io](https://crates.io/) (when published) | [Sources](https://github.com/PELock/Steganography-Online-Codec-Rust) |
+| ![Rust crates.io](https://www.pelock.com/img/logos/repo-crates.png) | Rust | Run `cargo add steganography-online-codec` or add `steganography-online-codec = "1"` to `Cargo.toml` (optional: `git` / `path` for unreleased or vendored builds) | [crates.io](https://crates.io/crates/steganography-online-codec) | [Sources](https://github.com/PELock/Steganography-Online-Codec-Rust) |
 
 ### How to hide a secret message within an image file
 
